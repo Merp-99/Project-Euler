@@ -12,3 +12,11 @@ answer = (
 )
 
 print(answer)
+
+"""
+LOGIC:
+Find the sum of multiples of 3 and 5. 
+You can't add the multiples as they share some numbers and would inflate the number.
+To fix this, you can take away one set of the shared multiples which is the sum of multiples of 3 and 5.
+The answer will be sum of 3 and sum of 5 - sume of 15 (all below the limit of 1000)
+"""
