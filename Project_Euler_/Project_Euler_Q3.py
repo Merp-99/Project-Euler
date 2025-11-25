@@ -16,3 +16,5 @@ while factor * factor <= n:
 
 if n > 1:
     largest_factor = n
+
+print(largest_factor)
