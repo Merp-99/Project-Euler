@@ -17,5 +17,9 @@ def largest_palindrome_product():
 
 print(largest_palindrome_product())
 
-
+"""
+Ways to Improve code:
+Loop from 999 downwards and a early-exit condition
+Check if x or y is divisible by 11
+"""
 
