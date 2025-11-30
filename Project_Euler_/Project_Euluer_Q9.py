@@ -1,3 +1,6 @@
+#There exists exactly one Pythagorean triplet for which 𝑎 +𝑏 +𝑐 =1000.
+#Find the product 𝑎⁢𝑏⁢𝑐.
+
 for a in range(1, 1000):
     for b in range(a+1, 1000):
         c = 1000 - a - b
