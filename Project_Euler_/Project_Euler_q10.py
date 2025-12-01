@@ -13,10 +13,10 @@ def sum_primes_below(limit):
                 is_prime[multiple] = False
         p += 1
 
-        total = 0 
-        for i in range(limit):
-            if is_prime[i]:
-                total += i
+    total = 0 
+    for i in range(limit):
+        if is_prime[i]:
+            total += i
 
     return total
 
